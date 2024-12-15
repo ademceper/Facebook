@@ -28,8 +28,45 @@
           <img src="images/search.png" alt="" />
           <input type="text" placeholder="Search" />
         </div>
-        <div class="nav-user-icon">
+        <div class="nav-user-icon" onclick="settingsMenuToggle()">
           <img src="images/profile-pic.png" alt="" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See Your Profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="images/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr>
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" alt="" />
+            <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" alt="" />
+            <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" alt="" />
+            <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" alt="" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -328,5 +365,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
